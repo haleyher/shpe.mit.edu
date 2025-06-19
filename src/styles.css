@@ -227,3 +227,48 @@ main > .content {
     display: inline-flex;
     flex-wrap: wrap;
 }
+
+/* Scope all styles under .quotes-section */
+.quotes-section h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .quotes-section .quotes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  
+  .quotes-section .quote {
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: fit-content;
+    max-width: 280px;
+    font-size: 1rem;
+    color: #333;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .quotes-section .quote:hover {
+    transform: scale(1.05) rotate(-2deg);
+  }
+  
+  /* Optional color variations */
+  .quotes-section .quote:nth-child(3n) {
+    font-size: 1.2rem;
+    background: #ffe6e6;
+  }
+  .quotes-section .quote:nth-child(4n) {
+    font-size: 1.1rem;
+    background: #e6f2ff;
+  }
+  .quotes-section .quote:nth-child(5n) {
+    font-size: 0.9rem;
+    background: #e6ffe6;
+  }
+  
