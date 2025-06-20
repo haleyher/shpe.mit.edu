@@ -52,10 +52,14 @@ One of 236 student chapters, SHPE-MIT was established in 1987 and has grown to b
 			
 			<br></br>
 			<center>
-				<h1>Why do you love SHPE?</h1>
-				<div class = "quotes">
-					{this.state.quotes.map( (x) => <h4>" {x} "</h4>)}
-				</div>
+			<div className="quotes-section">
+  <h1>Why do you love SHPE?</h1>
+  <div className="quotes">
+    {this.state.quotes.map((x) => (
+      <div className="quote">"{x}"</div>
+    ))}
+  </div>
+</div>
 			</center>
 			
 		</div>
