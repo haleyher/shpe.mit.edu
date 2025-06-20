@@ -114,7 +114,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 64px;
+    margin-top: 1em;
 }
 
 
@@ -229,10 +229,14 @@ main > .content {
 }
 
 /* Scope all styles under .quotes-section */
+.quotes-section{
+    width: 85%
+}
 .quotes-section h1 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2.5rem;
+    
   }
   
   .quotes-section .quotes {
@@ -247,6 +251,8 @@ main > .content {
     border-radius: 8px;
     background: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items:center;
     width: fit-content;
     max-width: 280px;
     font-size: 1rem;
@@ -259,10 +265,15 @@ main > .content {
   }
   
   /* Optional color variations */
-  .quotes-section .quote:nth-child(3n) {
+  .quotes-section .quote:nth-child(n) {
     font-size: 1.2rem;
-    background: #ffe6e6;
+    background: #fedbd2;
   }
+  .quotes-section .quote:nth-child(2n) {
+    font-size: 1.2rem;
+    background: #ffe3c7;
+  }
+  
   .quotes-section .quote:nth-child(4n) {
     font-size: 1.1rem;
     background: #e6f2ff;
@@ -270,5 +281,6 @@ main > .content {
   .quotes-section .quote:nth-child(5n) {
     font-size: 0.9rem;
     background: #e6ffe6;
+   
   }
   

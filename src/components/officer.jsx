@@ -20,7 +20,7 @@ export default class MainPanel extends Component {
 
                 <div className="team-member-text">
                     <a href={this.generateMailTo()} target="_none"><h3>{info.name}</h3></a>
-                    <h4>{info.position} | {info.year}</h4>
+                    <h4>{info.position} | {info.year} | {info.major}</h4>
                     <p>{info.bio}</p>
                 </div>
             </div>

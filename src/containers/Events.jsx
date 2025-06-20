@@ -6,8 +6,9 @@ class Events extends Component {
 	render() {
 		return (
 			<div className="events">
-				<center><h1>Upcoming Fall 2025 Event: </h1>
+				<center><h1>Upcoming Fall Event: </h1>
 				<h2>Algoed x SHPE Competition</h2></center>
+				<p> We'll be hosting a STEM competition with Algoed for middle and high schoolers. Follow along as we manage this event. </p>
 				
 				{/* Begin Instagram Embed */}
 				<blockquote
@@ -22,7 +23,7 @@ class Events extends Component {
 						boxShadow:
 							'0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
 						margin: '1px',
-						maxWidth: '540px',
+						maxWidth: '30%',
 						minWidth: '326px',
 						padding: 0,
 						width: '99.375%',
@@ -169,6 +170,10 @@ class Events extends Component {
 				</blockquote>
 				{/* End Instagram Embed */}
 
+				<center><h1>Our Events</h1>
+				<p>Add the LCC calendar to your G-cal to stay updated!</p></center>
+				
+
 				<iframe
 					title="calendar"
 					src="https://calendar.google.com/calendar/embed?src=latinoculturalcenter%40gmail.com&ctz=America%2FNew_York"
@@ -179,7 +184,7 @@ class Events extends Component {
 					scrolling="no"
 				/>
 
-				<p style={{ marginBottom: '100px' }}>Add this calendar!!</p>
+				
 
 			</div>
 		);
