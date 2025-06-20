@@ -1,9 +1,17 @@
 // Events.jsx
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import '../styles.css';
 
 class Events extends Component {
+	componentDidMount() {
+		// This ensures Instagram embed loads after the component mounts
+		if (window.instgrm) {
+			window.instgrm.Embeds.process();
+		}
+	}
+	
 	render() {
+		
 		return (
 			<div className="events">
 				<center><h1>Upcoming Fall Event: </h1>
