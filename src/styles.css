@@ -283,4 +283,21 @@ main > .content {
     background: #e6ffe6;
    
   }
+  .alert-bar {
+    background-color: #e94646;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    top: -20px;  /* this pulls it up */
+    z-index: 1000;
+  }
+  
+  .alert-bar a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
   

@@ -1,0 +1,46 @@
+{
+	"information": [
+        
+        { 
+            "name": "Bloomberg",
+            "img": "bloomberg",
+            "link": "https://www.bloomberg.com/company/professionals/"
+        },
+        {
+            "name": "Blue Origin",
+            "img": "blueorigin",
+            "link": "https://www.blueorigin.com/careers"
+        },
+        {  
+            "name": "D. E. Shaw",
+            "img": "deshaw",
+            "link": "https://www.deshaw.com/careers"
+        },
+        {  
+            "name": "General Motors",
+            "img": "generalmotors",
+            "link": "https://search-careers.gm.com/en/working-at-gm/"
+        },
+        {  
+            "name": "HRT",
+            "img": "hrt",
+            "link": "https://www.hudsonrivertrading.com/careers/"
+        },
+        {  
+            "name": "Jane Street",
+            "img": "janestreet",
+            "link": "https://www.janestreet.com/join-jane-street/open-roles/"
+        },
+        {  
+            "name": "Klaviyo",
+            "img": "klaviyo",
+            "link": "https://www.klaviyo.com/careers"
+        },
+        {  
+                "name": "Nvidia",
+                "img": "nvidia",
+                "link": "https://www.nvidia.com/en-us/about-nvidia/careers/"
+        }
+
+    ]
+}

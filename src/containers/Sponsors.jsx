@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import information from '../information/sponsors_2020.json'
+import information from '../information/sponsors_2025.json'
 import Sponsor from '../components/sponsor';
 import '../styles.css';
 
